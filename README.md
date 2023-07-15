@@ -1,18 +1,23 @@
 # BoxersAtari
 ### Данный репозиторий содержит модель машинного обучения, а именно обучения с подкреплением, для игра на Atari Boxing
 При построении моделей было выявленно несколько сложностей
-#### 1. Боксер не подходит к противнику
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/1.gif)
+#### 1. Боксер не подходит к противнику            
 #### Ввести награду за приближение к противнику
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/2.gif)
+
+До               | После
+-----------------|-----------------
+![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/1.gif)|![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/2.gif)
+
 #### 2. Боксер смещается лишь по одной оси
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/2.gif)
 #### Наказывать за долгий простой большим штрафом
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/3.gif)
+До               | После
+-----------------|-----------------
+![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/2.gif)|![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/3.gif)
 #### 3. Боксер зажимает противника в его же углу и не бьет
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/3.gif)
 #### Ввести радиус нахождение в котором дается награда
-![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/4.gif)
+До               | После
+-----------------|-----------------
+![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/3.gif)|![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Results/4.gif)
 
 ### Было реализовано несколько моделей, но приемлемый результат давала, использующая сверточную сеть (Google DeepMind)
 #### "Слепой агент 1"
