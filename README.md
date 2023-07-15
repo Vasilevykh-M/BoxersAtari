@@ -31,4 +31,4 @@
 #### Модель использующая сверточную сеть (Google DeepMind)
 ![](https://github.com/Vasilevykh-M/BoxersAtari/blob/main/Models/3.png)
 
-В этой модели используются сверточные сети  
+В этой модели используются сверточные сети
